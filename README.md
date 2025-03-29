@@ -18,22 +18,27 @@ Before running the application, ensure you have the following installed:
 
 ## Installation
 1. Navigate to the project directory:
-      cd "Project Todo"
+   <br>
+      ``` cd "Project Todo" ```
     
-2. Install dependencies:
-      npm install
+3. Install dependencies:
+   <br>
+       ``` npm install ```
     
 
 ## Running the Application
 ### Start the Backend Server
 Run the following command to start the backend server:
-      npm run server
+<br>
+      ``` npm run server ```
 
 ### Start the Frontend
 Run the following command to start the frontend:
-      npm run dev
+<br>
+     ``` npm run dev ```
 
 ## Directory Structure
+<pre> <code>
 .
 ├── .env                 # Environment variables
 ├── index.html           # Main HTML file
@@ -43,7 +48,7 @@ Run the following command to start the frontend:
 ├── public/              # Static assets (CSS file)
 ├── src/                 # Frontend source code
 └── ...
-
+</pre></code>
 
 ## Additional Notes
 - Ensure MongoDB is running before starting the backend.
